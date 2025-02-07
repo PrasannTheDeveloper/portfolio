@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+</head>
+<body>
+
+    <!-- Audio player -->
+    <audio id="myAudio" src="/NewPortfolio/Html_Files/Images/backgroudn music.mp3" preload="auto"></audio>
+
+    <!-- Play/Pause Button -->
+    <button id="playPauseBtn" onclick="toggleAudio()">Pause</button>
+
+    <script>
+        var audio = document.getElementById("myAudio");
+        var button = document.getElementById("playPauseBtn");
+
+        // Function to toggle play/pause
+        function toggleAudio() {
+            if (audio.paused) {
+                audio.play();
+                button.textContent = "Pause";
+            } else {
+                audio.pause();
+                button.textContent = "Play";
+            }
+        }
+
+        // Auto-play when the page loads
+        window.addEventListener("load", function() {
+            audio.play().catch(error => {
+                console.log("Auto-play prevented by browser:", error);
+            });
+        });
+    </script>
+
+</body>
+</html>
