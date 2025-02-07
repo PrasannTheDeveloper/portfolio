@@ -1,0 +1,58 @@
+. Home / About Me
+A short introduction (like the one we wrote earlier).
+Your education (CS student).
+Your key skills (ASP.NET, C#, SQL, Unreal Engine 5, Blender, etc.).
+A professional but friendly photo (optional).
+
+2. Skills
+List your technical skills, such as:
+
+Web Development: ASP.NET MVC, C#, SQL, JavaScript, HTML, CSS, Bootstrap.
+Game Development & 3D: Unreal Engine 5 (Blueprints), Blender (3D modeling).
+Other Skills: Java, C++, problem-solving, database management, Git/GitHub.
+Consider using skill rating bars or icons to make this section visually appealing.
+
+3. Projects
+Showcase your work with descriptions, images, and GitHub links. You can divide projects into two sections:
+
+A) Web Development Projects (ASP.NET MVC)
+Task Manager Web App – CRUD operations with SQL.
+To-Do List App – Task creation and management.
+Blog App – User and blog management without a database.
+Currency Converter – Frontend with a stylish UI.
+📌 Include GitHub links and screenshots.
+
+B) 3D & Game Development Projects
+Forest Scene in Unreal Engine 5 – A 3D environment with Quixel assets.
+Blender Models – Showcase any 3D models you've made.
+📌 Even if you haven’t finished a game, show assets or environments you’ve created.
+
+4. Resume (Optional but Recommended)
+Attach a downloadable PDF resume with your education, skills, and projects.
+
+5. Contact Information
+Include:
+
+Email
+GitHub (to showcase your code)
+LinkedIn (if available)
+Portfolio Website URL
+Bonus Sections (If You Want to Stand Out!)
+Blog / Articles: Write about what you learn (e.g., “Getting Started with ASP.NET” or “My Experience with Unreal Engine 5”).
+Certifications / Achievements: If you have completed any online courses (Udemy, Coursera, etc.), list them.
+Portfolio Design Suggestions
+Use modern, clean UI with a dark or professional theme.
+Highlight important sections using Bootstrap or a simple CSS framework.
+Make it responsive so it looks good on mobile.
+Keep navigation simple: Home | Skills | Projects | Contact.
+
+
+
+ <nav id="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
